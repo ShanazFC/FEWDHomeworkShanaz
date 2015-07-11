@@ -49,12 +49,16 @@ h1 {
 
 /* container styling  */
 
+h2 {
+ font-size: 1.75em;
+ margin: 20px 0 20px 0;
+}
+
 
 .container {
   width: 90%;
   margin: 0 auto;
   border-top: 1px solid black;
-
 }
 
 h3 {
@@ -66,9 +70,10 @@ h3 {
 
 p {
   font-family: georgia;
-  font-size: 1.2em;
+  font-size: 1.1em;
   width: 75%;
   margin-bottom: 30px;
+  line-height: 1.5em;
   /* margin-right: 20px; */
   /* float: left; */
   /* position: relative; */
@@ -88,6 +93,43 @@ p {
 }
 
 
+/* portfolio styling */
+
+.resume {
+   list-style-type: circle;
+   /* color: red; */
+}
+
+.bullet {
+  font-size: 7px !important;
+  margin-right: 10px;
+}
+
+.headline {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  }
+
+.title {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+.dates {
+  font-size: 0.9em;
+}
+
+.resume img {
+  border: 1px solid black;
+  padding: 4px;
+  margin-left: 25px;
+}
+
+.full {
+  margin-top: 20px;
+  width: 90% !important;
+}
 
 /* footer styling */
 
@@ -108,6 +150,7 @@ footer li{
    margin-top: 40px;
    margin-bottom: 100px;
    font-size: 1.1em;
+   line-height: 1.5em;
    /* padding: 10px; */
 }
 
@@ -169,26 +212,6 @@ footer li{
 }
 
 
-/* footer {
-  border-top: 1px solid black;
-  width: 67%;
-  margin-left: 50px;
-}
-
-
-footer li:First-child{
-   margin-left: 50px;
-   padding: 10px;
-}
-
-footer li{
-   display: inline-flex;
-   margin-top: 40px;
-   margin-bottom: 100px;
-   font-size: 1.1em;
-   padding: 10px;
-}
- */
 
 @media (min-width: 1300px) {
 
